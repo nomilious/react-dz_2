@@ -29,7 +29,7 @@ function App({store}) {
                                 <div className='Item-title'>
                                     {item.title}
                                     <span>
-                                        {item.clickCounter
+                                        {item.clickCounter && item.clickCounter > 0
                                             ? ` |Выделяли ${item.clickCounter} раз`
                                             : ""
                                         }

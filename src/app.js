@@ -9,7 +9,6 @@ import './styles.css';
 function App({store}) {
 
     const list = store.getState().list;
-    console.log(store.getState())
 
     return (
         <div className='App'>
